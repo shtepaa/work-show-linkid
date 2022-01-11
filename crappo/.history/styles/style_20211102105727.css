@@ -1,0 +1,10 @@
+:root {
+    --dark: #0D0D2B;
+    --white: #FFF;
+    --blue: #3671E9;
+    --purple:#2B076E
+}
+body {
+    background-color: var(--dark);
+    color: var(--white);
+}

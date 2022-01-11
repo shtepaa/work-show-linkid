@@ -1,0 +1,48 @@
+body {
+  color: #000000;
+  background-color: #ffffff;
+  border: px dotted black;
+  padding: 10px 10px 10px 10px;
+  font-family: sans-serif;
+}
+nav {
+  color: #ffffff;
+  size: large;
+  margin: 10px;
+  border: solid #a52a2a;
+  padding: 5px;
+  background-color: #a52a2a;
+  width: 100%;
+  text-align: center;
+}
+.line {
+  background-color: #ffffff;
+  border: 50px dotted black;
+  border-width: 3px 3px 3px 3px;  
+}
+div {
+  text-align: center;
+}
+.cover {
+  border: 1px solid #333; /* Рамка */
+  display: inline-block;
+  padding: 5px 15px; /* Поля */
+  text-decoration: none; /* Убираем подчёркивание */
+  color: #000; /* Цвет текста */
+  background-color: #c6f700;
+}
+.cover:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Тень */
+  background: linear-gradient(to bottom, #333, #c6f700); /* Градиент */
+  color: #a00;
+}
+
+footer {
+  color: #ffffff;
+  margin: 5px;
+  border: 5px solid #000000;
+  padding: 5px;
+  background-color: #000000;
+  width: 100%;
+  text-align: center;
+}

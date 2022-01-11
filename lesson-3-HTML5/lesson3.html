@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--META  -->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Семантичні елементи" />
+    <meta
+      name="author"
+      content="Anastasiia Shtepa anastasiia.shtepa1990@gmail.com"
+    />
+    <title>HTML5 Семантичні елементи</title>
+    <link type="text/css" rel="stylesheet" href="lesson3.css" />
+  </head>
+  <link rel="shortcut icon" href="./images/logo.png" type="image/png" />
+
+  <body>
+    <!--ЗМІСТ  -->
+
+    <h1>HTML5 Семантичні елементи</h1>
+    <p>
+      Семантичний елемент чітко описує його значення як для браузера, так і для
+      розробника.
+    </p>
+    <br />
+    <p>
+      Приклади не <strong>семантичних</strong> елементів: <code>div</code> і
+      <code>span</code>- нічого не говорить про його вміст.
+    </p>
+    <br />
+    <p>
+      Приклади <strong>семантичних</strong> елементів: <code>form</code>,
+      <code>table</code> і <code>article</code> - чітко визначає його зміст.
+    </p>
+    <br />
+    <header>
+      <h2>Підтримка браузерів</h2>
+      <!-- ІКОНКИ БРАУЗЕРА -->
+      <nav>
+        <p>
+          <img src="./images/google.png" alt="Google" />
+          <img src="./images/explorer.png" alt="Explorer" />
+          <img src="./images/mozila.png" alt="Mozilla" />
+          <img src="./images/safari.png" alt="Safari" />
+          <img src="./images/opera.png" alt="Opera" />
+        </p>
+      </nav>
+
+      <span class="cover">
+        <a href=".././index.html">Home </a>
+      </span>
+      <!-- ДРУГИЙ АБЗАЦ -->
+      <p>Семантичні елементи HTML5 підтримуються у всіх сучасних браузерах.</p>
+      <p>
+        Крім того, ви можете "навчити" старих браузерів, як обробляти "невідомі
+        елементи".
+      </p>
+      <p>
+        Прочитайте про це в
+        <a href="підтримці браузера HTML5">підтримці браузера HTML5</a>.
+      </p>
+      <h2>Нові семантичні елементи в HTML5</h2>
+      <p>
+        Багато веб-вузли містять HTML-код, наприклад:
+        <code>div ID = "NAV"</code> <code>div class = "заголовок"</code>
+        <code>div ID = "нижній колонтитул"</code>
+        <br />
+        <br />
+        для позначення навігації, верхнього і нижнього колонтитулів.
+        <br />
+        <br />
+        HTML5 пропонує нові семантичні елементи для визначення різних частин
+        веб-сторінки:
+      </p>
+      <!-- CПИСОК -->
+      <nav>
+        <ul>
+          <li><code>article</code></li>
+          <li><code>aside</code></li>
+          <li><code>details</code></li>
+          <li><code>figcaption</code></li>
+          <li><code>figure</code></li>
+          <li><code>footer</code></li>
+          <li><code>header</code></li>
+          <li><code>main</code></li>
+          <li><code>mark</code></li>
+          <li><code>nav</code></li>
+          <li><code>section</code></li>
+          <li><code>summary</code></li>
+          <li><code>time</code></li>
+        </ul>
+      </nav>
+      <h2>HTML5 <code>section</code> елемент</h2>
+      <p>
+        Елемент <code>section</code> визначає розділ в документі.
+        <br />
+        <br />
+        Згідно з документацією в3к'с HTML5: "розділ представляє собою тематичну
+        угруповання контенту, зазвичай з заголовком".
+        <br />
+        <br />
+        Домашня сторінка зазвичай може бути розділена на розділи для
+        ознайомлення,змісту і контактної інформації.
+        <br />
+        <!-- Приклад на картинці -->
+        <img src="./images/example.png" alt="Example" />
+      </p>
+      <a href="#">На початок сторінки</a>
+      <h2>HTML5 <code>article</code> елемент</h2>
+      <p>
+        HTML5 <code>article</code> визначає незалежний, автономний вміст.
+
+        <br />
+        Стаття повинна мати сенс самостійно, і вона повинна мати можливість
+        читати його незалежно від іншої частини веб-сайту.
+        <br />
+        Приклади того, де можна використовувати елемент <code>article</code>:
+      </p>
+      <nav>
+        <ul>
+          <li>Повідомлення на форумі</li>
+          <li>блозі</li>
+          <li>Газетна стаття</li>
+        </ul>
+      </nav>
+      <img src="./images/example2.png" alt="Example" />
+
+      <h2>
+        Вкладення <code>article</code> в <code>section</code> або навпаки?
+      </h2>
+      <p>
+        Елемент <code>article</code>визначає незалежне, автономне вміст.
+        <br />
+        <br />
+        Елемент <code>section</code>визначає розділ в документі.
+        <br />
+        <br />
+        Чи можемо ми використовувати визначення, щоб вирішити, як вкладати ці
+        елементи? Ні, ми не можемо!
+        <br />
+        <br />
+        Таким чином, в Інтернеті ви знайдете HTML-сторінки з
+        <code>section</code>елементами, що містять елементи
+        <code>article</code>, і <code>article</code>елементи, що містять
+        <code>section</code>елементи.
+        <br />
+        <br />
+        Ви також знайдете сторінки з елементами <code>section</code>, що містять
+        елементи <code>section</code>, і <code>article</code>елементи, що
+        містять <code>article</code>;елементи.
+      </p>
+      <h2>HTML5 <code>header</code>елемент</h2>
+      <p>
+        Елемент <code>header</code>задає заголовок для документа або розділу.
+        <br />
+        <br />
+        Елемент <code>header</code>повинен використовуватися в якості контейнера
+        для вступного змісту.
+        <br />
+        <br />
+        В одному документі може бути кілька елементів <code>header</code>.
+        <br />
+        <br />
+        У наступному прикладі визначається заголовок для статті:
+      </p>
+      <img src="./images/example3.png" alt="Example" />
+      <h2>HTML5 <code>footer</code> елемент</h2>
+      <p>
+        Елемент <code>footer</code>вказує нижній колонтитул для документа або
+        розділу.
+        <br />
+        <br />
+        Нижній колонтитул зазвичай містить автора документа, інформацію про
+        авторське право, посилання на умови використання, контактні дані і т.д.
+        <br />
+        <br />
+        В одному документі може бути кілька елементів <code>footer</code>
+      </p>
+      <img src="./images/example4.png" alt="Example" />
+      <h2>HTML5 <code>Nav</code> елемент</h2>
+      <p>
+        Елемент <code>nav</code>визначає набір навігаційних посилань.
+        <br />
+        <br />
+        Зверніть увагу, що не всі посилання документа повинні знаходитися
+        всередині елемента <code>nav</code>.
+        <br />
+        <br />
+        Елемент <code>nav</code>призначений тільки для основного блоку
+        навігаційних посилань.
+      </p>
+      <img src="./images/example5.png" alt="Example" />
+      <h2>HTML5 <code>aside</code> елемент</h2>
+      <p>Зміст <code>aside</code>має бути пов'язане з навколишнім вмістом.</p>
+      <img src="./images/example6.png" alt="Example" />
+      <h2>HTML5 & <code>figure</code> і <code>figcaption</code> елементи</h2>
+      <p>
+        Метою малюнка є додавання візуального пояснення до зображення.
+        <br />
+        <br />
+        У HTML5 зображення і заголовок можуть бути згруповані разом в елементі
+        <code>figure</code>:
+      </p>
+      <img src="./images/example7.png" alt="Example" />
+      <p>
+        Елемент <code>img</code>визначає зображення, елемент
+        <code>figcaption</code>визначає заголовок.
+      </p>
+    </header>
+    <a href="#">На початок сторінки</a>
+    <br />
+    <span class="c">
+      <a href=".././index.html">Home </a>
+    </span>
+    <footer>
+      <address>Ukraine, Poltava city</address>
+      <small> &copy;Copyright 2021 </small>
+    </footer>
+  </body>
+</html>

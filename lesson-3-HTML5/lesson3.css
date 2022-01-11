@@ -1,0 +1,64 @@
+@font-face {
+  font-family: "Emblema One";
+  src: url("./EmblemaOne-Regular.woff"), url("./EmblemaOne-Regular.ttf");
+}
+
+body {
+  background-color: #d2b48c;
+  margin-left: 20%;
+  margin-right: 20%;
+  border: 2px dotted black;
+  padding: 10px 10px 10px 10px;
+  font-family: sans-serif;
+}
+
+body {
+  font-family: Verdana, Geneva, Arial, sans-serif;
+  font-size: small;
+  text-align: center;
+  text-align: justify;
+}
+h1 {
+  color: #000;
+  border-bottom: thin dotted #888888;
+  text-align: center;
+  text-align: justify;
+}
+.cover {
+  border: 1px solid #333; /* Рамка */
+  display: inline-block;
+  padding: 5px 15px; /* Поля */
+  text-decoration: none; /* Убираем подчёркивание */
+  color: #000; /* Цвет текста */
+  background-color: #c6f700;
+}
+.c:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Тень */
+  background: linear-gradient(to bottom, #333, #c6f700); /* Градиент */
+  color: #a00;
+}
+h2,
+p {
+  color: #000;
+  border-bottom: thin dotted #888888;
+  text-align: center;
+  text-align: justify;
+}
+
+div {
+  width: 35px;
+  height: 5px;
+  background-color: rgb(117, 114, 114);
+  margin: 6px 0;
+  margin-left: 80%;
+  margin-right: 80%;
+}
+footer {
+  color: #ffffff;
+  margin: 5px;
+  border: 5px solid #000000;
+  padding: 5px;
+  background-color: #000000;
+  width: 100%;
+  text-align: center;
+}

@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background: #ffe6e6;
+}
+.content {
+  text-align: center;
+  display: inline-block;
+  margin-left: 35%;
+  margin-right: 35%;
+}
+.bigtitle {
+  margin-top: 20px;
+}
+.medium {
+  margin-top: 20px;
+}
+.blocks {
+  display: inline-block;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-top: 70px;
+  opacity: 0.6;
+}
+.block-1 {
+  background-color: #f7f7f7;
+  width: 200px;
+  padding-bottom: 120px;
+}
+/* Зміна кольору блоків */
+.block-1:hover {
+  color: white;
+  background: #06c9cc;
+}
+.block-2:hover {
+  color: white;
+  background: #06c9cc;
+}
+.block-3:hover {
+  color: white;
+  background: #06c9cc;
+}
+.block-4:hover {
+  color: white;
+  background: #06c9cc;
+}
+.block-2 {
+  background-color: #f7f7f7;
+  width: 200px;
+}
+.block-3 {
+  background-color: #f7f7f7;
+  width: 200px;
+}
+.block-4 {
+  background-color: #f7f7f7;
+  width: 200px;
+}
+.title2 {
+  font-size: 14px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #c8b9b9;
+  margin-top: 10px;
+}
+/* Заголовки */
+.smalltiitle {
+  color: #987f80;
+  font: bolder;
+  letter-spacing: 0.3pc;
+  font-size: 10px;
+}
+.bigtitle {
+  letter-spacing: 0.3pc;
+  color: #06c9cc;
+  font: bolder;
+  font-size: 25px;
+}
+.medium {
+  color: #c8b9b9;
+  letter-spacing: 0.01em;
+}
+.title1 {
+  margin-top: 10px;
+}
+/* кнопки додому  */
+.button {
+  border: 1px solid #eb7e7f; /* Рамка */
+  display: inline;
+  padding: 5px 15px; /* Поля */
+  text-decoration: none; /* Убираем подчёркивание */
+  color: #000; /* Цвет текста */
+  background-color: #88839e;
+  text-align: center;
+}
+.button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Тень */
+  background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+  color: #a00;
+}
+.button2 {
+  border: 1px solid #eb7e7f; /* Рамка */
+  display: inline;
+  padding: 5px 15px; /* Поля */
+  text-decoration: none; /* Убираем подчёркивание */
+  color: #000; /* Цвет текста */
+  background-color: #88839e;
+  margin-left: 2px;
+  text-align: center;
+}
+.button2:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Тень */
+  background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+  color: #a00;
+}
+nav {
+  text-align: center;
+  margin-bottom: ;
+}

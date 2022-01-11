@@ -1,0 +1,96 @@
+* {
+  font-family:  "Open Sans", sans-serif;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: #121116;
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+}
+.logo {
+  box-sizing: border-box;
+  height: 36px;
+  width: 112px;
+  display: inline;
+}
+.images-log {
+  height: 36px;
+  width: 112px;
+  margin: 12px;
+}
+h1 {
+  color: #fff;
+  font-size: 20px;
+  font-family: "Open Sans", sans-serif;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  font-weight: lighter;
+  margin-top: 55px;
+}
+
+.container {
+  text-align: center;
+  margin: 0px auto;
+  width: 100%;
+  max-width: 1180px;
+  margin-bottom: -39px;
+  margin-top: 171px;
+}
+span {
+  color: #19c8fa;
+}
+/* кнопки додому  */
+.button {
+  border: 1px solid #eb7e7f; /* Рамка */
+  display: inline;
+  padding: 5px 15px; /* Поля */
+  text-decoration: none; /* Убираем подчёркивание */
+  color: #000; /* Цвет текста */
+  background-color: #88839e;
+  text-align: center;
+}
+.button:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Тень */
+  background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+  color: #a00;
+}
+.button2 {
+  border: 1px solid #eb7e7f; /* Рамка */
+  display: inline;
+  padding: 5px 15px; /* Поля */
+  text-decoration: none; /* Убираем подчёркивание */
+  color: #000; /* Цвет текста */
+  background-color: #88839e;
+  margin-left: 2px;
+  text-align: center;
+}
+.button2:hover {
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Тень */
+  background: linear-gradient(to bottom, #fcfff4, #e9e9ce); /* Градиент */
+  color: #a00;
+}
+nav {
+  text-align: center;
+}
+hr {
+  width: 40%;
+  display: block;
+  text-align: center;
+  display: block;
+  font-size: 2em;
+  margin-block-start: 0.67em;
+  margin-block-end: 0.67em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  margin-left: 30%;
+  margin-right: 30%;
+}
+footer {
+  color: #ffffff;
+  width: 100%;
+  text-align: center;
+  margin-top: 55px;
+}
