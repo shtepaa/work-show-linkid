@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 75px;
+    background-color: #222;
+    display: flex;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    display: flex;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    height: 75px;
+    justify-content: space-between;
+    width: 100%;
+}
+.flex-left{
+    display: flex;
+    align-items: center;
+}
+#path{
+    margin-left: 41px;
+    cursor: pointer;
+}
+.contact-img{
+    margin-right: 33px;
+}
+
+.flex-right{
+    display: flex;
+    align-items: center;
+    
+}
+img{
+    cursor: pointer;
+}
+
+

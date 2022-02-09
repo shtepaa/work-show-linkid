@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 75px;
+    background-color: #222;
+    ;
+}
+.container{
+    margin: 0 auto;
+    width: 1200px;
+    display: ;
+}
+.navigation{
+    display: flex;
+}
+
+
+
