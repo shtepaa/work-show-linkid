@@ -1,0 +1,151 @@
+// Product page
+.slide-section {
+  background-color: $slide-c;
+  .slideshow-container {
+    width: 600px;
+    position: relative;
+    margin: 0 auto;
+  }
+  .mySlides1 {
+    display: none;
+  }
+  .slide-img {
+    vertical-align: middle;
+    padding-bottom: 64px;
+  }
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 11px 19px;
+  margin-top: -22px;
+  color: $c-black;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  background-color: $slide-back;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover,  */
+.prev:hover,
+.next:hover {
+  color: $c-pink;
+}
+.prev {
+  left: -467px;
+}
+.next {
+  right: -467px;
+}
+// Сектор коллекции
+.sector-collection {
+  background-color: $c-white;
+  width: 1140px;
+  margin: 0 auto;
+  height: 660px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 1px solid $bord-colect;
+  margin-top: -65px;
+  padding-left: 292px;
+  padding-right: 294px;
+  .colect-title {
+    padding-top: 64px;
+    text-transform: $up-case;
+    color: $c-pink;
+    font-weight: $fw-3;
+    font-size: $fs-14;
+    line-height: $l-heig16;
+  }
+  .line-colect {
+    margin-top: 12px;
+    background-color: $c-border;
+    height: 3px;
+    width: 63px;
+  }
+  .name-colect {
+    margin-top: 12px;
+    font-weight: $fw-3;
+    text-transform: $up-case;
+    font-size: $fs-18;
+    line-height: $l-h22;
+    color: $c-gravy;
+  }
+  .text-colect {
+    margin-top: 48px;
+    text-align: center;
+    font-weight: $fw-3;
+    font-size: $fs-14;
+    color: $c-stone;
+    width: 555px;
+  }
+  .price-colect {
+    margin-top: 32px;
+    font-weight: $fw-3;
+    color: $c-border;
+    font-size: $fs-24;
+    line-height: $l-heig29;
+    border-bottom: 1px solid $bord-colect;
+    width: 640px;
+    padding-bottom: 65px;
+    display: flex;
+    justify-content: center;
+  }
+}
+.fiters-collection {
+  padding-top: 10px;
+  display: flex;
+  margin-top: 60px;
+}
+// .left-collection{
+//   display: flex;
+// }
+// .marg-col-det{
+//   margin-left: -96px;
+
+// }
+
+.det-collection {
+  margin-right: 22px;
+}
+.size-collection {
+  margin-right: 22px;
+}
+// .price-collection{
+//   margin-right: 22px;
+// }
+.prod-blok {
+  margin-top: 200px;
+}
+.menu-tren-colect {
+  position: absolute;
+}
+// link to cart
+
+.add-cart-colection {
+  margin-top: 50px;
+  .card-links-colect {
+    display: flex;
+    border: 1px solid $c-pink;
+    padding: 14px 55px 14px 23px;
+    text-decoration: none;
+    align-items: center;
+    color: $c-pink;
+  }
+}
+.col-add-tex {
+  margin-left: 22px;
+}

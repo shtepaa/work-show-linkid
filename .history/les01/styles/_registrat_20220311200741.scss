@@ -1,0 +1,71 @@
+.registr__page{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 64px;
+    .regitr__form{
+        width: 40%;
+        margin-left: 0;
+        padding-right: 20px;
+        padding-right: 96px;
+        .registr__submit{
+            margin-top: 39px;
+            padding: 16px 24px;
+            background-color: $c-pink;
+            color: $c-white;
+            cursor: pointer;
+            &:after{
+                content: "<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Pro 6.0.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. --><path d="M438.6 278.6l-160 160C272.4 444.9 264.2 448 256 448s-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L338.8 288H32C14.33 288 .0016 273.7 .0016 256S14.33 224 32 224h306.8l-105.4-105.4c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l160 160C451.1 245.9 451.1 266.1 438.6 278.6z"/></svg>";
+                margin-right: 20px;
+                display: block;
+                width: 16px;
+                height: 2px;
+                color: $c-white;
+            }
+        }
+        
+    }
+    .registr__name{
+        color: $c-dark;
+        font-size: $fs-16;
+        line-height: $fs-18;
+        font-weight: $fw-3;
+    }
+    
+}
+#reg__name {
+    margin-top: 20px;
+    border: 1px solid $tot-text;
+    width: 358px;
+    padding: 12px 0 15px 16px;
+    
+}
+#reg__name::placeholder{
+    font-size: $fs-13;
+    line-height: $fs-16;
+    font-weight: $fw-3;
+    color: $input-text;
+}
+.registr__radio{
+    padding-bottom: 33px;
+    #male{
+        margin-top: 31px;
+        border: 1px solid $tot-text;
+        height: 17px;
+        width: 17px;
+    }
+    #male:last-of-type{
+        margin-left: 20px;
+    }
+    .reg_male{
+        color: $c-black;
+        font-size: $fs-11;
+        line-height: $fs-13;
+        
+       
+    }
+}
+.registr__name-text{
+    margin-top: 15px;
+    color: $input-text;
+}

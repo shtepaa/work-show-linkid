@@ -1,0 +1,24 @@
+.registr__page{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 64px;
+    .registr__name{
+        color: $c-dark;
+        font-size: $fs-16;
+        line-height: $fs-18;
+        font-weight: $fw-3;
+    }
+    
+}
+#reg__name {
+    margin-top: 20px;
+    border: 1px solid $tot-text;
+    width: 358px;
+    padding: 12px 0 15px 16px;
+    
+}
+#reg__name::placeholder{
+    font-size: $fs-13;
+    line-height: $fs-16;
+}

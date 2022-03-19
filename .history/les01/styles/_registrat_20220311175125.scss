@@ -1,0 +1,11 @@
+.registr__page{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 64px;
+    .registr__name{
+        color: $c-dark;
+        font-size: $fs-16;
+        line-height: $fs-18;
+    }
+}
