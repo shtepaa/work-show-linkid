@@ -1,0 +1,25 @@
+.featuredItems {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+}
+// @media (min-width: 640px) {
+//     .featuredItems {
+//         grid-template-columns: 1fr 1fr;
+//         row-gap: 18px;
+//         column-gap: 16px;
+//     }
+// }
+
+// @media (min-width: 1000px) {
+//     .featuredItems {
+//         grid-template-columns: repeat(3, 1fr);
+//         gap: 30px;
+//     }
+// }
+.product-item{
+    display: flex;
+    flex-direction: column;
+}
