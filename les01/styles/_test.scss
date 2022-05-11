@@ -1,10 +1,17 @@
-.featuredItems {
+.container-wrapp{
     display: flex;
-    justify-content: space-between;
-    flex-direction: row;
-    flex-wrap: wrap;
-    width: 100%;
+    margin: 0 auto;
+    max-width: 1000px;
+    .featuredItems {
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 20px;
+    }
 }
+
 // @media (min-width: 640px) {
 //     .featuredItems {
 //         grid-template-columns: 1fr 1fr;
@@ -22,4 +29,5 @@
 .product-item{
     display: flex;
     flex-direction: column;
+    padding: 20px;
 }

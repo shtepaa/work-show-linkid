@@ -555,7 +555,15 @@ select {
   margin-left: 22px;
 }
 
-.featuredItems {
+.container-wrapp {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 0 auto;
+  max-width: 1000px;
+}
+
+.container-wrapp .featuredItems {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -569,6 +577,7 @@ select {
   -ms-flex-wrap: wrap;
       flex-wrap: wrap;
   width: 100%;
+  padding: 20px;
 }
 
 .product-item {
@@ -579,6 +588,7 @@ select {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  padding: 20px;
 }
 
 header {
