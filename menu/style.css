@@ -10,6 +10,12 @@
   max-width: 450px;
   border-radius: 25px;
   margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
  
 }
 #form {
@@ -47,10 +53,12 @@ label {
   cursor: pointer;
 }
 fieldset {
-  padding: 20px;
+  padding: 15px;
   border-radius: 25px;
   border: 6px solid #2F4F4F;
-  
+}
+#result{
+  padding-bottom: 5px;
 }
 .lorem-ipsum {
   padding: 1em;
