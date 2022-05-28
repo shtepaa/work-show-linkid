@@ -1,0 +1,148 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  input{
+    outline: none;
+  }
+
+$ft-family: 'Roboto', sans-serif;
+
+body {
+    font-family: $ft-family;   
+}
+
+// Pages
+@import "variabless";
+@import "registr";
+@import "main";
+@import "chat";
+
+
+.navbar{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    margin-top: 50px;
+    .navbar-brand{
+      font-weight: $fw-9;
+      color: $c-bl;
+    }
+    .nav-item{
+        $black: $c-blk;
+        font-weight: $fw-5;
+    }
+    .btn-outline-success{
+        background-color: $c-bl-dark;
+        color: $c-wht;
+    }
+}
+
+.pick-header{
+    text-align: center;
+    display: flex;
+    background-color: $c-br-bluet;
+    color: $c-br-grey;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+}
+ /* Style the tab */
+.tab {
+       background-color: $c-br-grey;
+       display:flex;
+       justify-content: space-between;
+       
+   }
+   
+   /* Style the buttons inside the tab */
+   .tab button {
+       background-color: inherit;
+       border-radius:20px;
+       border: none;
+       outline: none;
+       cursor: pointer;
+       padding: 14px 16px;
+       transition: 0.3s;
+       font-size: 17px;
+       margin: 5px;
+       color: $c-wht;
+       font-weight: $fw-4;
+   }
+   
+   /* Change background color of buttons on hover */
+   .tab button:hover {
+       background-color: $c-bc-ground;
+   }
+   
+   /* Create an active/current tablink class */
+   .tab button.active {
+       background-color: $c-bc-ccc;
+   }
+   
+   /* Style the tab content */
+   .tabcontent {
+       display: none;
+       padding: 6px 12px;
+       border-top: none;
+       background-color: $c-bc-ccc;
+       .box-item{
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           border: 1px solid $c-br-grey;
+           width: 350px;
+           margin: 0 auto;
+           border-radius: 20px;
+           padding: 20px;
+           margin-top: 20px;
+           margin-bottom: 20px;
+           .footer-text{
+               border-top: 1px solid $c-br-grey;
+               padding-top: 10px;
+               text-align: center;
+               margin-top: 10px;
+               
+           }
+       }
+
+   }
+
+
+@media (max-width:399px){
+    .box-item{
+        max-width: 250px;
+        padding: 2px;
+        margin: 0 auto;
+    }
+  
+}
+.tab-list{
+    list-style: none;
+    & > .tab-li{
+        padding-left: 30px;
+        position: relative;
+        
+    }
+    
+}
+
+.tab-list > .tab-li:before{
+    content: '✔';
+    position: absolute; top: 0; left: 0;
+    color: $c-grn;
+    
+}
+
+.footer{
+
+ display: flex;
+ justify-content: center;
+ color: $c-br-grey;
+ height: 50px;
+ align-items: center;
+ border-bottom-left-radius: 20px;
+ border-bottom-right-radius: 20px;
+ background-color: $c-br-bluet;
+}  
+   
